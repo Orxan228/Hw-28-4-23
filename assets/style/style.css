@@ -113,6 +113,7 @@ body {
 .wrapper___bottom--cast{
     margin-top: 20px;
 }
+
 @media screen and (max-width: 1610px) {
     .wrapper___top input{
         width: 72%;
@@ -124,7 +125,15 @@ body {
         width: 62%;
     }
 }
+@media only screen and (max-width: 1440px) {
+    body {
+      height: 150vh;
+    }
+  }
 @media screen and (max-width: 1160px) {
+    body {
+        height: 100vh;
+      }
     .wrapper{
         width: 40%;
         padding: 30px 20px;
